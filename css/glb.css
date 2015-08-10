@@ -31,7 +31,7 @@ a:hover {
 
 #banner {
 	padding:0 10px;
-	background:#F68C43;
+	background:#FBAE17;
 	height:5em;
 	overflow-y:visible;
 }
@@ -151,7 +151,7 @@ a:hover {
 }
 
 #mobile_menu ul li a:hover{
-	background:#F68C43;
+	background:#FBAE17;
 	color:#FFF;
 }
 
@@ -381,7 +381,7 @@ div#msg_area:focus{
 }
 
 #footer a:hover{
-	color:#F68C43;
+	color:#FBAE17;
 }
 
 #copyright{
