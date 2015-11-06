@@ -1,6 +1,75 @@
-@media only screen and (min-width:981px){
+@media only screen and (min-width:1200px){
 	.wrapper{
-		width:75%;
+		max-width:1200px;
+	}
+}
+
+@media only screen and (min-width:981px){
+
+}
+
+@media only screen and (min-width:641px) and (max-width:980px){
+	#feed_left_container, #more_feed_left, #feed_right_container{
+		float:none;
+		width:auto;
+	}
+
+	#feed_right_container{
+		padding-left:0;
+	}
+
+	#start input[type="text"], #start input[type="password"]{
+		margin:0 auto 10px auto;
+		display:block;
+	}
+
+	#user_flyout{
+		padding-right:10px;
+	}
+
+	#user_flyout_menu{
+		right:10px;
+	}
+
+	/*#trend_main{
+		padding-left:5px;
+	}*/
+
+	.feed{
+		width:calc(100% / 3 - 5px);
+	}
+}
+
+/* tablets portrait*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+	#feed_left_container, #more_feed_left, #feed_right_container{
+		float:none;
+		width:auto;
+	}
+
+	#feed_right_container{
+		padding-left:0;
+	}
+
+	#start input[type="text"], #start input[type="password"]{
+		margin:0 auto 10px auto;
+		display:block;
+	}
+
+	#user_flyout{
+		padding-right:10px;
+	}
+
+	#user_flyout_menu{
+		right:10px;
+	}
+
+	/*#trend_main{
+		padding-left:5px;
+	}*/
+
+	.feed{
+		width:calc(100% / 3 - 5px);
 	}
 }
 
@@ -53,8 +122,8 @@
 
 	#fot_links{
 		float:none;
-		border-top:5px solid #D5D6D2;
-		border-bottom:5px solid #D5D6D2;
+		border-top:5px solid #A1A1A1;
+		border-bottom:5px solid #A1A1A1;
 	}
 
 	#fot_links a{
@@ -144,5 +213,69 @@
 
 	input[type="button"].apply_submit_but{
 		width:50%;
+	}
+
+	#feed_tit_cat{
+		float:none;
+		width:auto;
+		margin-right:20px;
+	}
+
+	#feed_container_title{
+		font-size:80%;
+	}
+
+	#feed_container_body{
+		display:none;
+	}
+
+	#feed_left_container, #more_feed_left, #feed_left_left_container, #feed_left_right_container, #feed_right_container{
+		float:none;
+		width:auto;
+	}
+
+	#feed_right_container{
+		padding-left:0;
+	}
+
+	.feed{
+		width:calc(100% - 20px);/*off-setting margin length*/
+		float:none;
+		margin-right:0;
+	}
+
+	#hero_intro{
+		padding:5em 0 1em 0;
+	}
+
+	#trend_main{
+		padding:0 10px;
+	}
+
+	#start{
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	#start input[type="text"], #start input[type="password"]{
+		margin-bottom:10px;
+		display:block;
+		width:100%;
+	}
+
+	#user_flyout{
+		padding-right:10px;
+	}
+
+	#user_flyout_menu{
+		right:10px;
+	}
+
+	#hero_engage{
+		font-size:300%;
+	}
+
+	.stream_form input[type="text"]{
+		width:100%;
 	}
 }
