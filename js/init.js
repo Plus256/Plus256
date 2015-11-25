@@ -39,3 +39,7 @@ function Buffer(){
 function _(tag_name){
 	return document.createElement(tag_name);
 }
+
+function $(x){
+	return document.getElementById(x);
+}
