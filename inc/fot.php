@@ -10,6 +10,7 @@
             <a href="./creation">Creation</a>
 						<a href="./domains">Domains</a>
             <a href="./wagaba">Wagaba</a>
+						<a href="./pearl">Pearl</a>
             <div class="spacer"></div>
         </div>
         <div id="copyright">Copyright &copy; <?php echo date('Y')." <a href='http://plus256.com' target='_NEW' id='sponsor_link'>".$sponsor."</a>"; ?></div>
